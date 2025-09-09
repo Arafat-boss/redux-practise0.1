@@ -3,12 +3,15 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  const handleInrement = () => {
+    setCount(count + 1)
+  }
 
   return (
     <>
       <h1>Practice Redux</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+        <button onClick={() => handleInrement()}>
           count is {count}
         </button>
         <p>
