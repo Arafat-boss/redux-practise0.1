@@ -9,6 +9,7 @@ function App() {
 
   return (
     <>
+      <h1>This is my First Practice for useing redux</h1>
       <h1>Practice Redux</h1>
       <div className="card">
         <button onClick={() => handleInrement()}>
