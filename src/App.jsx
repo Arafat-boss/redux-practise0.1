@@ -7,14 +7,17 @@ function App() {
     setCount(count + 1)
   }
 
+  const handelDecriment = () => {
+    setCount(count - 1)
+  }
+
   return (
     <>
       <h1>This is my First Practice for useing redux</h1>
       <h1>Practice Redux</h1>
       <div className="card">
-        <button onClick={() => handleInrement()}>
-          count is {count}
-        </button>
+        <button onClick={() => handleInrement()}></button>
+        <button onClick={() => handelDecriment()}></button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
