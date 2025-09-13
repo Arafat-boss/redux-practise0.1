@@ -17,14 +17,10 @@ function App() {
       <h1>Practice Redux</h1>
       <div className="card">
         <button onClick={() => handleInrement()}></button>
+        <h1>{count}</h1>
         <button onClick={() => handelDecriment()}></button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    
     </>
   )
 }
